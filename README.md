@@ -77,5 +77,5 @@ $ python3 -m unittest tests/test_models/test_base_model.py
 
 ## Authors
 
-* [**Wubeshet Yimam** ](https://github.com/wubeshetA)
-* [**Moussa Kalam AMZAT** ](https://github.com/Moussa-Kalam)
+* [**QUEEN WIHOGORA** ](https://github.com/Q-Reine)
+* [**NOELLA MARIE CHARTINE UWASE** ](https://github.com/Chartine02)
