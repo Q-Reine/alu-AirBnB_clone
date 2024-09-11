@@ -48,8 +48,11 @@ class FileStorage:
         for key in self.__objects.keys():
             json_obj[key] = self.__objects[key].to_dict()
 
-        with open(self.__file_path, 'w') as json_file:
-            json.dump(json_obj, json_file)
+        try:
+            with open(self.__file_path, 'w') as json_file:
+                json.dump(json_obj, json_file)
+        except FileNotFoundError:
+            pass
 
     def reload(self):
         """Deserializes the JSON file to __objects (only if the JSON file"""
